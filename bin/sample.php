@@ -4,7 +4,7 @@ use Dollyaswin\CliColor\Builder;
 use Dollyaswin\CliColor\Background\Color as BgColor;
 use Dollyaswin\CliColor\Text\Color as TextColor;
 
-$loader = require_once '../vendor/autoload.php';
+$loader = require_once __DIR__ . '/../vendor/autoload.php';
 
 if (!isset($loader)) {
     throw new RuntimeException('vendor/autoload.php could not be found. Did you run `php composer.phar install`?');
