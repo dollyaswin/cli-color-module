@@ -1,9 +1,9 @@
 <?php
 
-namespace Dollyaswin\CliColor;
+namespace Dollyaswin\Cli\Color;
 
-use Dollyaswin\CliColor\Text\Color as TextColor;
-use Dollyaswin\CliColor\Background\Color as BgColor;
+use Dollyaswin\Cli\Color\Text\Color as TextColor;
+use Dollyaswin\Cli\Color\Background\Color as BgColor;
 
 class Builder
 {

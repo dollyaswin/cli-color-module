@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dollyaswin\\CliColor\\" : "src/Dollyaswin/CliColor"
+            "Dollyaswin\\Cli\\Color\\" : "src/Dollyaswin/Cli/Color"
         }
     }
 }

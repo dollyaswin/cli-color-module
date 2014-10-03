@@ -1,6 +1,6 @@
 <?php
 
-namespace Dollyaswin\CliColor\Background;
+namespace Dollyaswin\Cli\Color\Background;
 
 /**
  *

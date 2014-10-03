@@ -1,6 +1,6 @@
 <?php
 
-namespace Dollyaswin\CliColor\Text;
+namespace Dollyaswin\Cli\Color\Text;
 
 /**
  *

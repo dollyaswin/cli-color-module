@@ -4,7 +4,7 @@
  * @package Dollyaswin
  */
 
-namespace Dollyaswin\CliColor;
+namespace Dollyaswin\Cli\Color;
 
 /**
  *
