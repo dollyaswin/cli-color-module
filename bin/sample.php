@@ -13,6 +13,6 @@ if (!isset($loader)) {
 $loader->add('Dollyaswin\CliColor', __DIR__);
 
 $builder = new Builder();
-$string  = 'Just testing just testing';
-echo $builder::getColoredString($string, TextColor::CYAN), PHP_EOL;
+$string  = '  Just testing just testing  ';
+echo $builder::getColoredString($string, TextColor::WHITE, BgColor::RED), PHP_EOL;
 echo $builder::getColoredString($string, TextColor::CYAN, BgColor::YELLOW), PHP_EOL;

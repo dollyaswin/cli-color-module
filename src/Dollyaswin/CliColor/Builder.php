@@ -12,7 +12,7 @@ class Builder
         $coloredString = "\033[" . $textColor . "m";
         
         if (!is_null($bgColor)) {
-            $coloredString = "\033[" . $bgColor . "m";
+            $coloredString .= "\033[" . $bgColor . "m";
         }
         
         return $coloredString . $string . "\033[0m";
